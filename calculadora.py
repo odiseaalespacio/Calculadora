@@ -10,7 +10,10 @@ def multiplicacion(num1,num2):
     resultadoM = num1 * num2;
     return resultadoM;
 def division(num1, num2):
-    resultadoD = num1 / num2;
+    try:
+        resultadoD = num1 / num2;
+    except ZeroDivisionError:
+        resultadoD="no se puede dividir por cero"
     return resultadoD;
 
 while True:
@@ -22,4 +25,3 @@ while True:
     print("5 salir")
     op=int(input("ingrese una opcion"))
     if op==1:
-        
