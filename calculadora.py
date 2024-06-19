@@ -10,9 +10,13 @@ def multiplicacion(num1,num2):
     resultadoM = num1 * num2;
     return resultadoM;
 
-
-
-
-
-
-
+while True:
+    print("que operacion desea realizar?")
+    print("1 sumar")
+    print("2 restar")
+    print("3 multiplicar")
+    print("4 dividir")
+    print("5 salir")
+    op=int(input("ingrese una opcion"))
+    if op==1:
+        
