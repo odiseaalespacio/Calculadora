@@ -9,6 +9,9 @@ def restar(numero1,numero2):
 def multiplicacion(num1,num2):
     resultadoM = num1 * num2;
     return resultadoM;
+def division(num1, num2):
+    resultadoD = num1 / num2;
+    return resultadoD;
 
 while True:
     print("que operacion desea realizar?")
