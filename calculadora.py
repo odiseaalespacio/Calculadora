@@ -6,10 +6,9 @@ def sumar(numero1,numero2):
 def restar(numero1,numero2):
     return numero1-numero2
 
-
-
-
-print("hola mundoi")
+def multiplicacion(num1,num2):
+    resultadoM = num1 * num2;
+    return resultadoM;
 
 
 
