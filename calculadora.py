@@ -25,3 +25,20 @@ while True:
     print("5 salir")
     op=int(input("ingrese una opcion"))
     if op==1:
+        num1=int(input("ingrese un numero"))
+        num2=int(input("ingrese otro numero"))
+        print(sumar(num1,num2))
+    if op==2:
+        num1=int(input("ingrese un numero"))
+        num2=int(input("ingrese otro numero"))
+        print(restar(num1,num2)) 
+    if op==3:
+        num1=int(input("ingrese un numero"))
+        num2=int(input("ingrese otro numero"))
+        print(multiplicacion(num1,num2))
+    if op==4:
+        num1=int(input("ingrese un numero"))
+        num2=int(input("ingrese otro numero"))
+        print(division(num1,num2))
+    if op==5:
+        break           
